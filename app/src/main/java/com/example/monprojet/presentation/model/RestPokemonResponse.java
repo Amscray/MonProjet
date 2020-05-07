@@ -1,6 +1,4 @@
-package com.example.monprojet.controller.model;
-
-import com.example.monprojet.controller.model.Pokemon;
+package com.example.monprojet.presentation.model;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.example.monprojet.controller.view;
+package com.example.monprojet.presentation.view;
 
 import android.view.LayoutInflater;
 import android.view.View;
@@ -9,7 +9,7 @@ import android.widget.TextView;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.monprojet.R;
-import com.example.monprojet.controller.model.Pokemon;
+import com.example.monprojet.presentation.model.Pokemon;
 
 import java.util.List;
 
