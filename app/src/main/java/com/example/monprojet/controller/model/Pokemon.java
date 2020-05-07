@@ -1,4 +1,4 @@
-package com.example.monprojet;
+package com.example.monprojet.controller.model;
 
 public class Pokemon {
 

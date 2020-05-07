@@ -1,4 +1,6 @@
-package com.example.monprojet;
+package com.example.monprojet.data;
+
+import com.example.monprojet.controller.model.RestPokemonResponse;
 
 import retrofit2.Call;
 import retrofit2.http.GET;
