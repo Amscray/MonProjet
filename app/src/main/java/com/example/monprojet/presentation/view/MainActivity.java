@@ -11,6 +11,7 @@ import android.widget.Toast;
 
 import com.example.monprojet.Constants;
 import com.example.monprojet.R;
+import com.example.monprojet.Singletons;
 import com.example.monprojet.presentation.controller.MainController;
 import com.example.monprojet.presentation.model.Pokemon;
 import com.example.monprojet.presentation.model.RestPokemonResponse;
@@ -47,10 +48,8 @@ public class MainActivity extends AppCompatActivity {
         controller = new MainController(
                 this,
 
-                new GsonBuilder()
-                        .setLenient()
-                        .create(),
-                getSharedPreferences("Pokemon calis", Context.MODE_PRIVATE)
+                Singletons.getGson(),
+                Singletons.getSharedPreferences(getApplicationContext())
 
         );
         controller.onStart();
