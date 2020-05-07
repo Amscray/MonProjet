@@ -18,7 +18,7 @@ public class DetailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
 
-        textDetail ) findViewById(R.id.detail_txt);
+        textDetail = findViewById(R.id.detail_txt);
 
         Intent intent = getIntent();
         String pokemonJson = intent.getStringExtra("pokemonKey");
