@@ -8,8 +8,9 @@ Projet de programmation mobile Android utilisant PokeAPI https://pokeapi.co/api 
 ## Consigne
 * Appel REST
 * 2 écrans minimum : home screen et detail des objets
-MVC
-* Gestion du projet via Gitflow
+* Stockage de données en cache
+* Appel Web service à une API Rest
+
 
 ## Fonctionnalité
 affiche les noms des pokemon de la 1ere génération et donne un détail sur eux.
